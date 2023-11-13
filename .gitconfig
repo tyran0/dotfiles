@@ -1,0 +1,10 @@
+[user]
+	name = tyran0
+	email = 119806764+tyran0@users.noreply.github.com
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
+[credential]
+	helper = cache --timeout 7200
+	helper = oauth
