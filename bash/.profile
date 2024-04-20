@@ -12,6 +12,10 @@ NODE_VERSION=20.11.0
 NODE_INSTALL="/usr/local/lib/node-v$NODE_VERSION-linux-x64"
 PATH="$PATH:$NODE_INSTALL/bin"
 
+# Global PNPM Modules
+export PNPM_HOME="/home/tyran0/.local/share/pnpm"
+PATH="$PATH:$PNPM_HOME"
+
 # Cargo (Rust)
 CARGO_INSTALL="$HOME/.cargo"
 PATH="$PATH:$CARGO_INSTALL/bin"
